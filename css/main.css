@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -5vh;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+ul {
+    align-items: center;
+}
+
+li {
+    font-size: 14px;
+    list-style: none;
+    padding: 0.9rem;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Navbar content */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+}
+
+.material-icons:hover {
+    cursor: pointer;
+}
+
+
+.tleft-btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.tright-btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+#apps-icon {
+    background: white;
+    padding: 0.3rem;
+    margin: 0 .6rem;
+    border-radius: 50%;
+    color: rgb(80, 80, 80);
+}
+
+#apps-icon:hover {
+    background-color: lightgray;
+}
+
+#user-icon {
+    height: 2rem;
+    padding: 0.7rem;
+}
+
+#user-icon:hover {
+    cursor: pointer;
+}
+
+
+/* Main page content */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 12vh auto;
+    background-color: white;
+}
+
+#logo {
+
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    padding: 0.5rem;
+    border: 1px solid rgba(150, 150, 150, 0.6);
+    border-radius: 3rem;
+    background-color: white;
+}
+
+.search-box:hover,
+.search-buttons:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+}
+
+.searchbar {
+    width: 85%;
+    height: 2rem;
+    border: none;
+    style: none;
+}
+.searchbar:focus {
+    outline: none;
+}
+
+.search-button-box {
+    padding: 1.5rem;
+}
+
+.search-buttons {
+    border: none;
+    font-weight: lighter;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+.search-buttons:hover {
+    border-radius: 4px;
+    outline: 1px solid rgba(150, 150, 150, 0.4);
+    cursor: pointer;
+}
+
+
+/* Footer content */
+
+.site-footer, .page-wrap:after {
+    height: 5vh;
+}
+
+.site-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+    color: rgba(100, 100, 100, 1);
+    background-color: rgba(150, 150, 150, 0.205);
+}
+
+.bleft-btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.bright-btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
